@@ -1,0 +1,58 @@
+{
+  "id": "doggos-devx",
+  "title": "DOGGOS DevX",
+  "version": "1.0.0",
+  "engineVersion": ">=0.1.0",
+  "description": "DOGGOS DevX Walkthrough CourseENDEVOR",
+  "steps": [
+    {
+      "id": "first-step",
+      "title": "First Step",
+      "instructions": "steps/01-first-step/instructions.md",
+      "hints": [],
+      "validator": "steps/01-first-step/validate.js"
+    },
+    {
+      "id": "run-doggos-application",
+      "title": "Run DOGGOS Application",
+      "instructions": "steps/02-run-doggos-application/instructions.md",
+      "hints": [],
+      "validator": "steps/02-run-doggos-application/validate.js"
+    },
+    {
+      "id": "get-doggos-application-from-the-prod-environment",
+      "title": "Get DOGGOS application from the PROD environment",
+      "instructions": "steps/03-get-doggos-application-from-the-prod-environment/instructions.md",
+      "hints": [],
+      "validator": "steps/03-get-doggos-application-from-the-prod-environment/validate.js"
+    },
+    {
+      "id": "edit-build-the-doggos-application",
+      "title": "Edit&Build the DOGGOS application",
+      "instructions": "steps/04-edit-build-the-doggos-application/instructions.md",
+      "hints": [],
+      "validator": "steps/04-edit-build-the-doggos-application/validate.js"
+    },
+    {
+      "id": "link-the-doggos-application",
+      "title": "Link the DOGGOS application",
+      "instructions": "steps/05-link-the-doggos-application/instructions.md",
+      "hints": [],
+      "validator": "steps/05-link-the-doggos-application/validate.js"
+    },
+    {
+      "id": "run-the-doggos-application-after-the-change-is-made",
+      "title": "Run the DOGGOS application AFTER the change is made",
+      "instructions": "steps/06-run-the-doggos-application-after-the-change-is-made/instructions.md",
+      "hints": [],
+      "validator": "steps/06-run-the-doggos-application-after-the-change-is-made/validate.js"
+    },
+    {
+      "id": "debug",
+      "title": "Debug",
+      "instructions": "steps/07-debug/instructions.md",
+      "hints": [],
+      "validator": "steps/07-debug/validate.js"
+    }
+  ]
+}

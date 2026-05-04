@@ -1,0 +1,23 @@
+name: Release
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Read version
+        id: version
+        run: echo "version=$(node -p \"require('./course.json').version\")" >> $GITHUB_OUTPUT
+      - name: Create tag
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TAG="v${{ steps.version.outputs.version }}"
+          git tag $TAG 2>/dev/null || echo "Tag $TAG already exists"
+          git push origin $TAG 2>/dev/null || echo "Tag $TAG already pushed"
