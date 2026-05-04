@@ -29,3 +29,4 @@ Engine: MSD
    - Instructions: `steps/07-debug/instructions.md`
    - Validator: `steps/07-debug/validate.js`
 # course-doggos-devx
+# course-doggos-devx
